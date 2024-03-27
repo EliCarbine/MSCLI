@@ -18,6 +18,11 @@
 		845B66432B4B324C00810806 /* WegovTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845B66422B4B324C00810806 /* WegovTests.swift */; };
 		845B664D2B4B324C00810806 /* WegovUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845B664C2B4B324C00810806 /* WegovUITests.swift */; };
 		845B664F2B4B324C00810806 /* WegovUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845B664E2B4B324C00810806 /* WegovUITestsLaunchTests.swift */; };
+		845E651D2BB2234B007DCCB5 /* SideNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845E651C2BB2234B007DCCB5 /* SideNavigation.swift */; };
+		845E65202BB4AFC6007DCCB5 /* MusicGridList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845E651F2BB4AFC6007DCCB5 /* MusicGridList.swift */; };
+		845E65222BB4B7CC007DCCB5 /* FriendsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845E65212BB4B7CC007DCCB5 /* FriendsList.swift */; };
+		845E65242BB4C550007DCCB5 /* AreaDesc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845E65232BB4C550007DCCB5 /* AreaDesc.swift */; };
+		845E65272BB4C7E2007DCCB5 /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845E65262BB4C7E2007DCCB5 /* Title.swift */; };
 		8495BDFE2B6F096400B21E5C /* GoogleMaps in Frameworks */ = {isa = PBXBuildFile; productRef = 8495BDFD2B6F096400B21E5C /* GoogleMaps */; };
 		8495BE002B6F096400B21E5C /* GoogleMapsBase in Frameworks */ = {isa = PBXBuildFile; productRef = 8495BDFF2B6F096400B21E5C /* GoogleMapsBase */; };
 		8495BE022B6F096400B21E5C /* GoogleMapsCore in Frameworks */ = {isa = PBXBuildFile; productRef = 8495BE012B6F096400B21E5C /* GoogleMapsCore */; };
@@ -55,6 +60,11 @@
 		845B66482B4B324C00810806 /* WegovUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WegovUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		845B664C2B4B324C00810806 /* WegovUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WegovUITests.swift; sourceTree = "<group>"; };
 		845B664E2B4B324C00810806 /* WegovUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WegovUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		845E651C2BB2234B007DCCB5 /* SideNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideNavigation.swift; sourceTree = "<group>"; };
+		845E651F2BB4AFC6007DCCB5 /* MusicGridList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicGridList.swift; sourceTree = "<group>"; };
+		845E65212BB4B7CC007DCCB5 /* FriendsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsList.swift; sourceTree = "<group>"; };
+		845E65232BB4C550007DCCB5 /* AreaDesc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaDesc.swift; sourceTree = "<group>"; };
+		845E65262BB4C7E2007DCCB5 /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +99,8 @@
 		844365802BA7BD03000CDE58 /* font */ = {
 			isa = PBXGroup;
 			children = (
+				845E65252BB4C7B1007DCCB5 /* Navigation */,
+				845E651E2BB4AF5A007DCCB5 /* MListView */,
 				844365812BA7BD19000CDE58 /* Rolling Bold Free Version.ttf */,
 			);
 			path = font;
@@ -98,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				844365892BA7EC56000CDE58 /* MapKitView.swift */,
+				845E65232BB4C550007DCCB5 /* AreaDesc.swift */,
 			);
 			path = Mapkit;
 			sourceTree = "<group>";
@@ -128,6 +141,7 @@
 				844365872BA7BE9B000CDE58 /* Info.plist */,
 				845B66312B4B324900810806 /* WegovApp.swift */,
 				845B66332B4B324900810806 /* ContentView.swift */,
+				845E651C2BB2234B007DCCB5 /* SideNavigation.swift */,
 				844365882BA7EC04000CDE58 /* Mapkit */,
 				844365802BA7BD03000CDE58 /* font */,
 				845B66352B4B324B00810806 /* Assets.xcassets */,
@@ -159,6 +173,23 @@
 				845B664E2B4B324C00810806 /* WegovUITestsLaunchTests.swift */,
 			);
 			path = WegovUITests;
+			sourceTree = "<group>";
+		};
+		845E651E2BB4AF5A007DCCB5 /* MListView */ = {
+			isa = PBXGroup;
+			children = (
+				845E651F2BB4AFC6007DCCB5 /* MusicGridList.swift */,
+				845E65212BB4B7CC007DCCB5 /* FriendsList.swift */,
+			);
+			path = MListView;
+			sourceTree = "<group>";
+		};
+		845E65252BB4C7B1007DCCB5 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				845E65262BB4C7E2007DCCB5 /* Title.swift */,
+			);
+			path = Navigation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -303,9 +334,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				845E65272BB4C7E2007DCCB5 /* Title.swift in Sources */,
+				845E651D2BB2234B007DCCB5 /* SideNavigation.swift in Sources */,
+				845E65242BB4C550007DCCB5 /* AreaDesc.swift in Sources */,
 				8443658A2BA7EC56000CDE58 /* MapKitView.swift in Sources */,
+				845E65202BB4AFC6007DCCB5 /* MusicGridList.swift in Sources */,
 				845B66342B4B324900810806 /* ContentView.swift in Sources */,
 				845B66322B4B324900810806 /* WegovApp.swift in Sources */,
+				845E65222BB4B7CC007DCCB5 /* FriendsList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

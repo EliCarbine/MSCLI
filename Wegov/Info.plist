@@ -4,6 +4,7 @@
 <dict>
 	<key>UIAppFonts</key>
 	<array>
+		<string>Futura-Medium</string>
 		<string>Rolling Bold Free Version.ttf</string>
 	</array>
 </dict>
