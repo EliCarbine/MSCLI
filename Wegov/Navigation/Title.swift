@@ -23,13 +23,13 @@ struct Title: View {
             //  .foregroundColor(Color("CColor"))
             .shadow(radius: 8)
             // .offset(x:-40)
-            
-            Text(" MusiCali ")
+            Spacer()
+           /* Text(" MusiCali ")
                 .font(Font.custom("RollingBold-PersonalUse", size: 40))
                 .shadow(radius: 2)
                 .frame(width: 201.0,height: 40)
-                .padding(.horizontal,35)
-                .padding(.top,10)
+                .padding(.horizontal,35)*/
+               // .padding(.top,10)
             
             //
             Button(action: {
@@ -44,7 +44,7 @@ struct Title: View {
                     .shadow(radius: 3)
             }
         }
-        .padding(.all,4)
+        .padding(.horizontal,12)
         
     }
 }

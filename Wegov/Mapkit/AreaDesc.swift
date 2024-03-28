@@ -9,9 +9,8 @@ import SwiftUI
 
 struct AreaDesc: View {
     @State private var favLocation = false
+    
     var body: some View {
-
-           
                 VStack(alignment:.leading, spacing: 2){
                     //Coordinate location
                     Text("This Area")
@@ -24,7 +23,7 @@ struct AreaDesc: View {
                             .font(.subheadline)
                             .fontWeight(.semibold)
                             .foregroundColor(Color.black)
-                        Text("People Listening Near You")
+                        Text("People Listening Around")
                             .font(.subheadline)
                             .fontWeight(.semibold)
                             .foregroundColor(Color.black)
@@ -33,9 +32,10 @@ struct AreaDesc: View {
                         Button(action: {
                             favLocation.toggle()
                         }){
-                            Image(systemName: favLocation ? "star" :
-                                    "star.fill")
+                            Image(systemName: favLocation ? "star.fill" :
+                                    "star")
                             .foregroundColor(Color.black)
+                
                         }
                     }
                 }

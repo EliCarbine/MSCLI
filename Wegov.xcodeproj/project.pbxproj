@@ -10,7 +10,6 @@
 		844365832BA7BD19000CDE58 /* Rolling Bold Free Version.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 844365812BA7BD19000CDE58 /* Rolling Bold Free Version.ttf */; };
 		844365852BA7BD64000CDE58 /* Rolling Bold Free Version.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 844365812BA7BD19000CDE58 /* Rolling Bold Free Version.ttf */; };
 		844365862BA7BD64000CDE58 /* Rolling Bold Free Version.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 844365812BA7BD19000CDE58 /* Rolling Bold Free Version.ttf */; };
-		8443658A2BA7EC56000CDE58 /* MapKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844365892BA7EC56000CDE58 /* MapKitView.swift */; };
 		845B66322B4B324900810806 /* WegovApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845B66312B4B324900810806 /* WegovApp.swift */; };
 		845B66342B4B324900810806 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845B66332B4B324900810806 /* ContentView.swift */; };
 		845B66362B4B324B00810806 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845B66352B4B324B00810806 /* Assets.xcassets */; };
@@ -23,6 +22,8 @@
 		845E65222BB4B7CC007DCCB5 /* FriendsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845E65212BB4B7CC007DCCB5 /* FriendsList.swift */; };
 		845E65242BB4C550007DCCB5 /* AreaDesc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845E65232BB4C550007DCCB5 /* AreaDesc.swift */; };
 		845E65272BB4C7E2007DCCB5 /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845E65262BB4C7E2007DCCB5 /* Title.swift */; };
+		845E65292BB4F1F7007DCCB5 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845E65282BB4F1F7007DCCB5 /* Map.swift */; };
+		845E652E2BB623B3007DCCB5 /* Your Stats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845E652D2BB623B3007DCCB5 /* Your Stats.swift */; };
 		8495BDFE2B6F096400B21E5C /* GoogleMaps in Frameworks */ = {isa = PBXBuildFile; productRef = 8495BDFD2B6F096400B21E5C /* GoogleMaps */; };
 		8495BE002B6F096400B21E5C /* GoogleMapsBase in Frameworks */ = {isa = PBXBuildFile; productRef = 8495BDFF2B6F096400B21E5C /* GoogleMapsBase */; };
 		8495BE022B6F096400B21E5C /* GoogleMapsCore in Frameworks */ = {isa = PBXBuildFile; productRef = 8495BE012B6F096400B21E5C /* GoogleMapsCore */; };
@@ -49,7 +50,6 @@
 /* Begin PBXFileReference section */
 		844365812BA7BD19000CDE58 /* Rolling Bold Free Version.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rolling Bold Free Version.ttf"; sourceTree = "<group>"; };
 		844365872BA7BE9B000CDE58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		844365892BA7EC56000CDE58 /* MapKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitView.swift; sourceTree = "<group>"; };
 		845B662E2B4B324900810806 /* Wegov.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wegov.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		845B66312B4B324900810806 /* WegovApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WegovApp.swift; sourceTree = "<group>"; };
 		845B66332B4B324900810806 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -65,6 +65,8 @@
 		845E65212BB4B7CC007DCCB5 /* FriendsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsList.swift; sourceTree = "<group>"; };
 		845E65232BB4C550007DCCB5 /* AreaDesc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaDesc.swift; sourceTree = "<group>"; };
 		845E65262BB4C7E2007DCCB5 /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
+		845E65282BB4F1F7007DCCB5 /* Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
+		845E652D2BB623B3007DCCB5 /* Your Stats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Your Stats.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +101,6 @@
 		844365802BA7BD03000CDE58 /* font */ = {
 			isa = PBXGroup;
 			children = (
-				845E65252BB4C7B1007DCCB5 /* Navigation */,
-				845E651E2BB4AF5A007DCCB5 /* MListView */,
 				844365812BA7BD19000CDE58 /* Rolling Bold Free Version.ttf */,
 			);
 			path = font;
@@ -109,7 +109,7 @@
 		844365882BA7EC04000CDE58 /* Mapkit */ = {
 			isa = PBXGroup;
 			children = (
-				844365892BA7EC56000CDE58 /* MapKitView.swift */,
+				845E65282BB4F1F7007DCCB5 /* Map.swift */,
 				845E65232BB4C550007DCCB5 /* AreaDesc.swift */,
 			);
 			path = Mapkit;
@@ -138,10 +138,12 @@
 		845B66302B4B324900810806 /* Wegov */ = {
 			isa = PBXGroup;
 			children = (
+				845E651E2BB4AF5A007DCCB5 /* MListView */,
+				845E65252BB4C7B1007DCCB5 /* Navigation */,
+				845E652C2BB5CBB1007DCCB5 /* Stats */,
 				844365872BA7BE9B000CDE58 /* Info.plist */,
 				845B66312B4B324900810806 /* WegovApp.swift */,
 				845B66332B4B324900810806 /* ContentView.swift */,
-				845E651C2BB2234B007DCCB5 /* SideNavigation.swift */,
 				844365882BA7EC04000CDE58 /* Mapkit */,
 				844365802BA7BD03000CDE58 /* font */,
 				845B66352B4B324B00810806 /* Assets.xcassets */,
@@ -169,6 +171,7 @@
 		845B664B2B4B324C00810806 /* WegovUITests */ = {
 			isa = PBXGroup;
 			children = (
+				845E652B2BB5B87B007DCCB5 /* Music */,
 				845B664C2B4B324C00810806 /* WegovUITests.swift */,
 				845B664E2B4B324C00810806 /* WegovUITestsLaunchTests.swift */,
 			);
@@ -187,9 +190,25 @@
 		845E65252BB4C7B1007DCCB5 /* Navigation */ = {
 			isa = PBXGroup;
 			children = (
+				845E651C2BB2234B007DCCB5 /* SideNavigation.swift */,
 				845E65262BB4C7E2007DCCB5 /* Title.swift */,
 			);
 			path = Navigation;
+			sourceTree = "<group>";
+		};
+		845E652B2BB5B87B007DCCB5 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		845E652C2BB5CBB1007DCCB5 /* Stats */ = {
+			isa = PBXGroup;
+			children = (
+				845E652D2BB623B3007DCCB5 /* Your Stats.swift */,
+			);
+			path = Stats;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -334,13 +353,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				845E652E2BB623B3007DCCB5 /* Your Stats.swift in Sources */,
 				845E65272BB4C7E2007DCCB5 /* Title.swift in Sources */,
 				845E651D2BB2234B007DCCB5 /* SideNavigation.swift in Sources */,
 				845E65242BB4C550007DCCB5 /* AreaDesc.swift in Sources */,
-				8443658A2BA7EC56000CDE58 /* MapKitView.swift in Sources */,
 				845E65202BB4AFC6007DCCB5 /* MusicGridList.swift in Sources */,
 				845B66342B4B324900810806 /* ContentView.swift in Sources */,
 				845B66322B4B324900810806 /* WegovApp.swift in Sources */,
+				845E65292BB4F1F7007DCCB5 /* Map.swift in Sources */,
 				845E65222BB4B7CC007DCCB5 /* FriendsList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

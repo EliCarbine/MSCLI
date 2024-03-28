@@ -32,38 +32,14 @@ struct ContentView: View {
     
     
     //MAP STRUCT
-    /* struct MapView: UIViewRepresentable {
-     // @Binding var manager: CLLocationManager
-     // @Binding var alert: Bool
-     
-     func makeUIView(context: Context) -> MKMapView {
-     let mapView = MKMapView()
-     
-     let center = CLLocationCoordinate2D(latitude: 40.630234,longitude: -73.944640)
-     
-     let region = MKCoordinateRegion(center: center, latitudinalMeters: 250, longitudinalMeters: 200)
-     
-     mapView.region = region
-     
-     return mapView
-     // MKMapView()
-     
+
+   
+    // MKMapView()
+
      // LOACATION MANAGAER
-     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
-     if let location = locations.first {
-     let coordinateRegion = MKCoordinateRegion(center: location.coordinate, latitudinalMeters: 500, longitudinalMeters: 500)
-     mapView.region = coordinateRegion
-     }
-     }
-     }
-     //FUNCTIONS
-     func updateUIView(_ view: MKMapView, context: Context) {
      
-     }
      
-     }
-     
-     */
+  
     //SCREEN
     var body: some View {
         
@@ -72,30 +48,39 @@ struct ContentView: View {
                            startPoint: .topLeading,
                            endPoint: .bottomTrailing)
             .edgesIgnoringSafeArea(.all)
-            
+            //Scroll
             ScrollView(.vertical){
-                
                 //Top of page
-                VStack(){
-                  Title()
+                VStack(spacing:0){
                     
+                    Title()
+                    
+                    
+                    MapView()
+                        .edgesIgnoringSafeArea(.top)
+                        .padding(.bottom)
+                        .frame(height: 400)
+                        .offset(x:0,y:-8)
+           
+                    // .opacity(/*@START_MENU_TOKEN@*/0.8/*@END_MENU_TOKEN@*/)
                 }
-   
-                // THE MAP
-                /* MapView()
-                 .edgesIgnoringSafeArea(.all)
-                 .padding(.bottom)
-                 .frame(height: 350)
-                 .offset(x:0,y:-8)*/
-                // .opacity(/*@START_MENU_TOKEN@*/0.8/*@END_MENU_TOKEN@*/)
                 
                 Spacer()
      
-                //Nearby Tracks
+                //Area Decription
                 AreaDesc()
+                Divider()
+                //Top Nearby Listings
                 MusicGridList()
-                
+                Divider()
+                    .frame(width: 350)
+                //FriendList
                FriendsList()
+                Divider()
+                    .frame(width: 300)
+                
+            //Statistics
+                muScore()
                 
             }
         }
@@ -108,4 +93,5 @@ struct ContentView: View {
         }
     }
 }
+
 

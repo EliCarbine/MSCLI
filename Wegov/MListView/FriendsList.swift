@@ -16,12 +16,11 @@ struct FriendsList: View {
     var body: some View {
         VStack{
             HStack{
-                Button("Your Friends",action: {
-                    
-                } )
+                Text("Your Friends")
                 .font(.title)
                 .fontWeight(.semibold)
                 .foregroundColor(Color.black)
+                
                 Spacer()
             }.padding(.leading,8)
             ScrollView(.horizontal){
