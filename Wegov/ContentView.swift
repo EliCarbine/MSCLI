@@ -13,78 +13,39 @@ struct ContentView: View {
     
     
     //State Variables
-    //   @State private var favLocation = false
-    
-    
-    // @StateObject private var locationManager = LocationManager()
-    // @State private var gridList
-    
-    //LOCATION MAP
-    /* class LocationManager: NSObject, ObservableObject, CLLocationManagerDelegate {
-     private let locationManager = CLLocationManager()
-     
-     override init() {
-     super.init()
-     locationManager.delegate = self
-     }
-     }*/
-    // @StateObject private var locationManager = LocationManager()
-    
-    
-    //MAP STRUCT
-
-   
-    // MKMapView()
-
-     // LOACATION MANAGAER
-     
-     
+    @State  var bottomSheet:Bool = true
   
     //SCREEN
     var body: some View {
         
         ZStack{
-            LinearGradient(gradient: Gradient(colors:[ Color("AColor"),Color("BColor")]),
-                           startPoint: .topLeading,
-                           endPoint: .bottomTrailing)
-            .edgesIgnoringSafeArea(.all)
-            //Scroll
-            ScrollView(.vertical){
-                //Top of page
-                VStack(spacing:0){
-                    
-                    Title()
-                    
-                    
+           
                     MapView()
                         .edgesIgnoringSafeArea(.top)
-                        .padding(.bottom)
-                        .frame(height: 400)
-                        .offset(x:0,y:-8)
-           
-                    // .opacity(/*@START_MENU_TOKEN@*/0.8/*@END_MENU_TOKEN@*/)
-                }
+                        .cornerRadius(20)
+                    Title()
+               .padding(.top,10)
+          
+         
+            }
+        .edgesIgnoringSafeArea(.all)
+       // .frame(height: 960)
+        .sheet(isPresented: $bottomSheet){
+            ZStack{
+                LinearGradient(gradient: Gradient(colors:[ Color("AColor"),Color("BColor")]),
+                               startPoint: .topLeading,
+                               endPoint: .bottomTrailing)
+                .edgesIgnoringSafeArea(.all)
+                .frame(height: 960)
                 
-                Spacer()
-     
-                //Area Decription
-                AreaDesc()
-                Divider()
-                //Top Nearby Listings
-                MusicGridList()
-                Divider()
-                    .frame(width: 350)
-                //FriendList
-               FriendsList()
-                Divider()
-                    .frame(width: 300)
-                
-            //Statistics
-                muScore()
-                
+                MainNav()
+                    .presentationDetents([.fraction(0.55),.large])
+                    .presentationDragIndicator(.visible)
+                   
+                    
+                    
             }
         }
-    
     }
 
     struct ContentView_Previews: PreviewProvider {

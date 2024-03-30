@@ -13,23 +13,25 @@ struct muScore: View {
             HStack{
                 Button(action: {
                 }){
-                    Label("Your Stats",systemImage:"chart.bar.xaxis.ascending")
+                    Text("Your Stats")
                         .font(.title)
                         .fontWeight(.bold)
                         .foregroundColor(Color.black)
                         .underline()
+                    Image(systemName: "chart.bar.xaxis.ascending.badge.clock")
+                        .foregroundColor(Color.black)
                     
+                    Spacer()
                 }
-                Spacer()
+                .padding(.horizontal,7)
             }
-            .padding(.horizontal,7)
+            Spacer(minLength: 300)
         }
-        Spacer(minLength: 300)
     }
 }
+    struct muScore_Previews: PreviewProvider {
+        static var previews: some View {
+            muScore()
+        }
+    }
 
-struct muScore_Previews: PreviewProvider {
-    static var previews: some View {
-        muScore()
-    }
-}

@@ -39,12 +39,4 @@ struct MapView: UIViewRepresentable {
     }
 }
 
-    
-    // THE MAP
-   /* MapView()
-        .edgesIgnoringSafeArea(.all)
-        .padding(.bottom)
-        .frame(height: 350)
-        .offset(x:0,y:-8)*/
-    
 

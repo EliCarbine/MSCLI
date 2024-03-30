@@ -39,7 +39,8 @@ struct AreaDesc: View {
                         }
                     }
                 }
-                .padding(.horizontal,7)
+                .frame(height:80)
+                .padding([.top, .leading, .trailing],7)
         
     }
 }

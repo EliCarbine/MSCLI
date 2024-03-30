@@ -24,6 +24,7 @@
 		845E65272BB4C7E2007DCCB5 /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845E65262BB4C7E2007DCCB5 /* Title.swift */; };
 		845E65292BB4F1F7007DCCB5 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845E65282BB4F1F7007DCCB5 /* Map.swift */; };
 		845E652E2BB623B3007DCCB5 /* Your Stats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845E652D2BB623B3007DCCB5 /* Your Stats.swift */; };
+		845E65322BB8896E007DCCB5 /* MainNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845E65312BB8896D007DCCB5 /* MainNav.swift */; };
 		8495BDFE2B6F096400B21E5C /* GoogleMaps in Frameworks */ = {isa = PBXBuildFile; productRef = 8495BDFD2B6F096400B21E5C /* GoogleMaps */; };
 		8495BE002B6F096400B21E5C /* GoogleMapsBase in Frameworks */ = {isa = PBXBuildFile; productRef = 8495BDFF2B6F096400B21E5C /* GoogleMapsBase */; };
 		8495BE022B6F096400B21E5C /* GoogleMapsCore in Frameworks */ = {isa = PBXBuildFile; productRef = 8495BE012B6F096400B21E5C /* GoogleMapsCore */; };
@@ -67,6 +68,7 @@
 		845E65262BB4C7E2007DCCB5 /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
 		845E65282BB4F1F7007DCCB5 /* Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
 		845E652D2BB623B3007DCCB5 /* Your Stats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Your Stats.swift"; sourceTree = "<group>"; };
+		845E65312BB8896D007DCCB5 /* MainNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNav.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +140,7 @@
 		845B66302B4B324900810806 /* Wegov */ = {
 			isa = PBXGroup;
 			children = (
+				845E652F2BB7164F007DCCB5 /* PProfile */,
 				845E651E2BB4AF5A007DCCB5 /* MListView */,
 				845E65252BB4C7B1007DCCB5 /* Navigation */,
 				845E652C2BB5CBB1007DCCB5 /* Stats */,
@@ -192,6 +195,7 @@
 			children = (
 				845E651C2BB2234B007DCCB5 /* SideNavigation.swift */,
 				845E65262BB4C7E2007DCCB5 /* Title.swift */,
+				845E65312BB8896D007DCCB5 /* MainNav.swift */,
 			);
 			path = Navigation;
 			sourceTree = "<group>";
@@ -209,6 +213,13 @@
 				845E652D2BB623B3007DCCB5 /* Your Stats.swift */,
 			);
 			path = Stats;
+			sourceTree = "<group>";
+		};
+		845E652F2BB7164F007DCCB5 /* PProfile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PProfile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -357,6 +368,7 @@
 				845E65272BB4C7E2007DCCB5 /* Title.swift in Sources */,
 				845E651D2BB2234B007DCCB5 /* SideNavigation.swift in Sources */,
 				845E65242BB4C550007DCCB5 /* AreaDesc.swift in Sources */,
+				845E65322BB8896E007DCCB5 /* MainNav.swift in Sources */,
 				845E65202BB4AFC6007DCCB5 /* MusicGridList.swift in Sources */,
 				845B66342B4B324900810806 /* ContentView.swift in Sources */,
 				845B66322B4B324900810806 /* WegovApp.swift in Sources */,
