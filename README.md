@@ -3,6 +3,9 @@ My music proximity app connecting people of all taste together whilst showing lo
 Coming Updates
 - Title Labeling
 - Music connectivity
+- Genres
+- Profile/Settings/Login
+- Location search bar
 - Area name Description shown/ Favorite locations
 - Basic Statistics
 <img width="237" alt="Screenshot 2024-04-25 at 10 19 35 PM" src="https://github.com/EliCarbine/MSCLI/assets/114750633/ef3e258f-b43f-4318-8587-2ce3076de9a8">
