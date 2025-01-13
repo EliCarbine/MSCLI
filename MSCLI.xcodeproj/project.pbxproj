@@ -1,0 +1,706 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		844365832BA7BD19000CDE58 /* Rolling Bold Free Version.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 844365812BA7BD19000CDE58 /* Rolling Bold Free Version.ttf */; };
+		844365852BA7BD64000CDE58 /* Rolling Bold Free Version.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 844365812BA7BD19000CDE58 /* Rolling Bold Free Version.ttf */; };
+		844365862BA7BD64000CDE58 /* Rolling Bold Free Version.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 844365812BA7BD19000CDE58 /* Rolling Bold Free Version.ttf */; };
+		845B66322B4B324900810806 /* WegovApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845B66312B4B324900810806 /* WegovApp.swift */; };
+		845B66342B4B324900810806 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845B66332B4B324900810806 /* ContentView.swift */; };
+		845B66362B4B324B00810806 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845B66352B4B324B00810806 /* Assets.xcassets */; };
+		845B66392B4B324B00810806 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845B66382B4B324B00810806 /* Preview Assets.xcassets */; };
+		845B66432B4B324C00810806 /* WegovTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845B66422B4B324C00810806 /* WegovTests.swift */; };
+		845B664D2B4B324C00810806 /* WegovUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845B664C2B4B324C00810806 /* WegovUITests.swift */; };
+		845B664F2B4B324C00810806 /* WegovUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845B664E2B4B324C00810806 /* WegovUITestsLaunchTests.swift */; };
+		845E651D2BB2234B007DCCB5 /* SideNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845E651C2BB2234B007DCCB5 /* SideNavigation.swift */; };
+		845E65202BB4AFC6007DCCB5 /* MusicGridList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845E651F2BB4AFC6007DCCB5 /* MusicGridList.swift */; };
+		845E65222BB4B7CC007DCCB5 /* FriendsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845E65212BB4B7CC007DCCB5 /* FriendsList.swift */; };
+		845E65242BB4C550007DCCB5 /* AreaDesc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845E65232BB4C550007DCCB5 /* AreaDesc.swift */; };
+		845E65272BB4C7E2007DCCB5 /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845E65262BB4C7E2007DCCB5 /* Title.swift */; };
+		845E65292BB4F1F7007DCCB5 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845E65282BB4F1F7007DCCB5 /* Map.swift */; };
+		845E652E2BB623B3007DCCB5 /* Your Stats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845E652D2BB623B3007DCCB5 /* Your Stats.swift */; };
+		845E65322BB8896E007DCCB5 /* MainNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845E65312BB8896D007DCCB5 /* MainNav.swift */; };
+		9512E43F2D2F82FB00D8FA23 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9512E43E2D2F82FB00D8FA23 /* Constants.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		845B663F2B4B324C00810806 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 845B66262B4B324900810806 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 845B662D2B4B324900810806;
+			remoteInfo = Wegov;
+		};
+		845B66492B4B324C00810806 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 845B66262B4B324900810806 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 845B662D2B4B324900810806;
+			remoteInfo = Wegov;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		844365812BA7BD19000CDE58 /* Rolling Bold Free Version.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rolling Bold Free Version.ttf"; sourceTree = "<group>"; };
+		844365872BA7BE9B000CDE58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		845B662E2B4B324900810806 /* Wegov.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wegov.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		845B66312B4B324900810806 /* WegovApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WegovApp.swift; sourceTree = "<group>"; };
+		845B66332B4B324900810806 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		845B66352B4B324B00810806 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		845B66382B4B324B00810806 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		845B663E2B4B324C00810806 /* WegovTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WegovTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		845B66422B4B324C00810806 /* WegovTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WegovTests.swift; sourceTree = "<group>"; };
+		845B66482B4B324C00810806 /* WegovUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WegovUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		845B664C2B4B324C00810806 /* WegovUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WegovUITests.swift; sourceTree = "<group>"; };
+		845B664E2B4B324C00810806 /* WegovUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WegovUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		845E651C2BB2234B007DCCB5 /* SideNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideNavigation.swift; sourceTree = "<group>"; };
+		845E651F2BB4AFC6007DCCB5 /* MusicGridList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicGridList.swift; sourceTree = "<group>"; };
+		845E65212BB4B7CC007DCCB5 /* FriendsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsList.swift; sourceTree = "<group>"; };
+		845E65232BB4C550007DCCB5 /* AreaDesc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaDesc.swift; sourceTree = "<group>"; };
+		845E65262BB4C7E2007DCCB5 /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
+		845E65282BB4F1F7007DCCB5 /* Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
+		845E652D2BB623B3007DCCB5 /* Your Stats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Your Stats.swift"; sourceTree = "<group>"; };
+		845E65312BB8896D007DCCB5 /* MainNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNav.swift; sourceTree = "<group>"; };
+		9512E43A2D2F775300D8FA23 /* SpotifyiOS.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:2FNC3A47ZF:Spotify"; lastKnownFileType = wrapper.xcframework; path = SpotifyiOS.xcframework; sourceTree = "<group>"; };
+		9512E43B2D2F80FB00D8FA23 /* WegovUITests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WegovUITests-Bridging-Header.h"; sourceTree = "<group>"; };
+		9512E43E2D2F82FB00D8FA23 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		845B662B2B4B324900810806 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		845B663B2B4B324C00810806 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		845B66452B4B324C00810806 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		844365802BA7BD03000CDE58 /* font */ = {
+			isa = PBXGroup;
+			children = (
+				844365812BA7BD19000CDE58 /* Rolling Bold Free Version.ttf */,
+			);
+			path = font;
+			sourceTree = "<group>";
+		};
+		844365882BA7EC04000CDE58 /* Mapkit */ = {
+			isa = PBXGroup;
+			children = (
+				845E65282BB4F1F7007DCCB5 /* Map.swift */,
+				845E65232BB4C550007DCCB5 /* AreaDesc.swift */,
+			);
+			path = Mapkit;
+			sourceTree = "<group>";
+		};
+		845B66252B4B324900810806 = {
+			isa = PBXGroup;
+			children = (
+				9512E43E2D2F82FB00D8FA23 /* Constants.swift */,
+				9512E43A2D2F775300D8FA23 /* SpotifyiOS.xcframework */,
+				845B66302B4B324900810806 /* Wegov */,
+				845B66412B4B324C00810806 /* WegovTests */,
+				845B664B2B4B324C00810806 /* WegovUITests */,
+				845B662F2B4B324900810806 /* Products */,
+				9512E43B2D2F80FB00D8FA23 /* WegovUITests-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		845B662F2B4B324900810806 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				845B662E2B4B324900810806 /* Wegov.app */,
+				845B663E2B4B324C00810806 /* WegovTests.xctest */,
+				845B66482B4B324C00810806 /* WegovUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		845B66302B4B324900810806 /* Wegov */ = {
+			isa = PBXGroup;
+			children = (
+				845E652F2BB7164F007DCCB5 /* PProfile */,
+				845E651E2BB4AF5A007DCCB5 /* MListView */,
+				845E65252BB4C7B1007DCCB5 /* Navigation */,
+				845E652C2BB5CBB1007DCCB5 /* Stats */,
+				844365872BA7BE9B000CDE58 /* Info.plist */,
+				845B66312B4B324900810806 /* WegovApp.swift */,
+				845B66332B4B324900810806 /* ContentView.swift */,
+				844365882BA7EC04000CDE58 /* Mapkit */,
+				844365802BA7BD03000CDE58 /* font */,
+				845B66352B4B324B00810806 /* Assets.xcassets */,
+				845B66372B4B324B00810806 /* Preview Content */,
+			);
+			path = Wegov;
+			sourceTree = "<group>";
+		};
+		845B66372B4B324B00810806 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				845B66382B4B324B00810806 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		845B66412B4B324C00810806 /* WegovTests */ = {
+			isa = PBXGroup;
+			children = (
+				845B66422B4B324C00810806 /* WegovTests.swift */,
+			);
+			path = WegovTests;
+			sourceTree = "<group>";
+		};
+		845B664B2B4B324C00810806 /* WegovUITests */ = {
+			isa = PBXGroup;
+			children = (
+				845E652B2BB5B87B007DCCB5 /* Music */,
+				845B664C2B4B324C00810806 /* WegovUITests.swift */,
+				845B664E2B4B324C00810806 /* WegovUITestsLaunchTests.swift */,
+			);
+			path = WegovUITests;
+			sourceTree = "<group>";
+		};
+		845E651E2BB4AF5A007DCCB5 /* MListView */ = {
+			isa = PBXGroup;
+			children = (
+				845E651F2BB4AFC6007DCCB5 /* MusicGridList.swift */,
+				845E65212BB4B7CC007DCCB5 /* FriendsList.swift */,
+			);
+			path = MListView;
+			sourceTree = "<group>";
+		};
+		845E65252BB4C7B1007DCCB5 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				845E651C2BB2234B007DCCB5 /* SideNavigation.swift */,
+				845E65262BB4C7E2007DCCB5 /* Title.swift */,
+				845E65312BB8896D007DCCB5 /* MainNav.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		845E652B2BB5B87B007DCCB5 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		845E652C2BB5CBB1007DCCB5 /* Stats */ = {
+			isa = PBXGroup;
+			children = (
+				845E652D2BB623B3007DCCB5 /* Your Stats.swift */,
+			);
+			path = Stats;
+			sourceTree = "<group>";
+		};
+		845E652F2BB7164F007DCCB5 /* PProfile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PProfile;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		845B662D2B4B324900810806 /* Wegov */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 845B66522B4B324C00810806 /* Build configuration list for PBXNativeTarget "Wegov" */;
+			buildPhases = (
+				845B662A2B4B324900810806 /* Sources */,
+				845B662B2B4B324900810806 /* Frameworks */,
+				845B662C2B4B324900810806 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wegov;
+			packageProductDependencies = (
+			);
+			productName = Wegov;
+			productReference = 845B662E2B4B324900810806 /* Wegov.app */;
+			productType = "com.apple.product-type.application";
+		};
+		845B663D2B4B324C00810806 /* WegovTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 845B66552B4B324C00810806 /* Build configuration list for PBXNativeTarget "WegovTests" */;
+			buildPhases = (
+				845B663A2B4B324C00810806 /* Sources */,
+				845B663B2B4B324C00810806 /* Frameworks */,
+				845B663C2B4B324C00810806 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				845B66402B4B324C00810806 /* PBXTargetDependency */,
+			);
+			name = WegovTests;
+			productName = WegovTests;
+			productReference = 845B663E2B4B324C00810806 /* WegovTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		845B66472B4B324C00810806 /* WegovUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 845B66582B4B324C00810806 /* Build configuration list for PBXNativeTarget "WegovUITests" */;
+			buildPhases = (
+				845B66442B4B324C00810806 /* Sources */,
+				845B66452B4B324C00810806 /* Frameworks */,
+				845B66462B4B324C00810806 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				845B664A2B4B324C00810806 /* PBXTargetDependency */,
+			);
+			name = WegovUITests;
+			productName = WegovUITests;
+			productReference = 845B66482B4B324C00810806 /* WegovUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		845B66262B4B324900810806 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					845B662D2B4B324900810806 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					845B663D2B4B324C00810806 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 845B662D2B4B324900810806;
+					};
+					845B66472B4B324C00810806 = {
+						CreatedOnToolsVersion = 14.3.1;
+						LastSwiftMigration = 1540;
+						TestTargetID = 845B662D2B4B324900810806;
+					};
+				};
+			};
+			buildConfigurationList = 845B66292B4B324900810806 /* Build configuration list for PBXProject "Wegov" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 845B66252B4B324900810806;
+			packageReferences = (
+			);
+			productRefGroup = 845B662F2B4B324900810806 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				845B662D2B4B324900810806 /* Wegov */,
+				845B663D2B4B324C00810806 /* WegovTests */,
+				845B66472B4B324C00810806 /* WegovUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		845B662C2B4B324900810806 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				845B66392B4B324B00810806 /* Preview Assets.xcassets in Resources */,
+				844365832BA7BD19000CDE58 /* Rolling Bold Free Version.ttf in Resources */,
+				845B66362B4B324B00810806 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		845B663C2B4B324C00810806 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844365852BA7BD64000CDE58 /* Rolling Bold Free Version.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		845B66462B4B324C00810806 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844365862BA7BD64000CDE58 /* Rolling Bold Free Version.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		845B662A2B4B324900810806 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				845E652E2BB623B3007DCCB5 /* Your Stats.swift in Sources */,
+				845E65272BB4C7E2007DCCB5 /* Title.swift in Sources */,
+				845E651D2BB2234B007DCCB5 /* SideNavigation.swift in Sources */,
+				845E65242BB4C550007DCCB5 /* AreaDesc.swift in Sources */,
+				845E65322BB8896E007DCCB5 /* MainNav.swift in Sources */,
+				845E65202BB4AFC6007DCCB5 /* MusicGridList.swift in Sources */,
+				845B66342B4B324900810806 /* ContentView.swift in Sources */,
+				845B66322B4B324900810806 /* WegovApp.swift in Sources */,
+				845E65292BB4F1F7007DCCB5 /* Map.swift in Sources */,
+				845E65222BB4B7CC007DCCB5 /* FriendsList.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		845B663A2B4B324C00810806 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				845B66432B4B324C00810806 /* WegovTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		845B66442B4B324C00810806 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				845B664D2B4B324C00810806 /* WegovUITests.swift in Sources */,
+				845B664F2B4B324C00810806 /* WegovUITestsLaunchTests.swift in Sources */,
+				9512E43F2D2F82FB00D8FA23 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		845B66402B4B324C00810806 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 845B662D2B4B324900810806 /* Wegov */;
+			targetProxy = 845B663F2B4B324C00810806 /* PBXContainerItemProxy */;
+		};
+		845B664A2B4B324C00810806 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 845B662D2B4B324900810806 /* Wegov */;
+			targetProxy = 845B66492B4B324C00810806 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		845B66502B4B324C00810806 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		845B66512B4B324C00810806 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		845B66532B4B324C00810806 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Wegov/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Wegov/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = new.Wegov;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		845B66542B4B324C00810806 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Wegov/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Wegov/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = new.Wegov;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		845B66562B4B324C00810806 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = new.WegovTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wegov.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Wegov";
+			};
+			name = Debug;
+		};
+		845B66572B4B324C00810806 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = new.WegovTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wegov.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Wegov";
+			};
+			name = Release;
+		};
+		845B66592B4B324C00810806 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = new.WegovUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "WegovUITests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wegov;
+			};
+			name = Debug;
+		};
+		845B665A2B4B324C00810806 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = new.WegovUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "WegovUITests-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wegov;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		845B66292B4B324900810806 /* Build configuration list for PBXProject "Wegov" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				845B66502B4B324C00810806 /* Debug */,
+				845B66512B4B324C00810806 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		845B66522B4B324C00810806 /* Build configuration list for PBXNativeTarget "Wegov" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				845B66532B4B324C00810806 /* Debug */,
+				845B66542B4B324C00810806 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		845B66552B4B324C00810806 /* Build configuration list for PBXNativeTarget "WegovTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				845B66562B4B324C00810806 /* Debug */,
+				845B66572B4B324C00810806 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		845B66582B4B324C00810806 /* Build configuration list for PBXNativeTarget "WegovUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				845B66592B4B324C00810806 /* Debug */,
+				845B665A2B4B324C00810806 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 845B66262B4B324900810806 /* Project object */;
+}
