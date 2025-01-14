@@ -3,6 +3,7 @@ My music proximity app connecting people of all taste together whilst showing lo
 Latest Developments
 - Updated development to iOS 17.0
 - Cosmetic changes / Map implementation
+- Favorite Location annotations
 - Spotify iOS Framework(in progress still)
 
 Coming Updates
