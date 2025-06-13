@@ -10,24 +10,31 @@ import SwiftUI
 struct SideNavigation: View {
     var body: some View {
         VStack {
-            Text("Profile")
-                .font(Font.custom("Futura-Medium", size: 40))
-                .font(.title2)
-                .fontWeight(.bold)
-            Divider()
-            Text("Your Stats")
-                .font(Font.custom("Futura-Medium", size: 40))
-                .font(.title2)
-                .fontWeight(.bold)
-            Divider()
-            
+            Group{
+                Text("Profile")
+                    .font(Font.custom("Futura-Medium", size: 40))
+                    .font(.title2)
+                    .fontWeight(.ultraLight)
+                    .colorInvert()
+                Divider()
+                    .colorInvert()
+                
+                Text("Your Stats")
+                    .font(Font.custom("Futura-Medium", size: 40))
+                    .font(.title2)
+                    .fontWeight(.ultraLight)
+                    .colorInvert()
+                
+                
+                Divider()
+                    .colorInvert()
+            }
             
             Spacer()
         }
         .padding(16)
-        .background(Color.gray)
-        .edgesIgnoringSafeArea(.bottom)
-        
+        .background(Color.black)
+        .edgesIgnoringSafeArea(.vertical)
         .opacity(0.8)
         
     }

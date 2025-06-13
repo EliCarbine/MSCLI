@@ -1,6 +1,6 @@
 //
 //  AreaDesc.swift
-//  Wegov
+//  MSCLI
 //
 //  Created by Admin on 3/27/24.
 //
@@ -13,34 +13,37 @@ struct AreaDesc: View {
     var body: some View {
                 VStack(alignment:.leading, spacing: 2){
                     //Coordinate location
-                    Text("This Area")
+                    Text("In the Area")
                         .font(.title)
                         .fontWeight(.bold)
                         .foregroundColor(Color.black)
                     // .offset(x: -60)
+
                     HStack(spacing: 3){
-                        Text("2.4k")
+                        //Number sibject to change
+                        Text("2.5K")
                             .font(.subheadline)
                             .fontWeight(.semibold)
                             .foregroundColor(Color.black)
-                        Text("People Listening Around")
+                        Text("Listeners Around")
                             .font(.subheadline)
                             .fontWeight(.semibold)
                             .foregroundColor(Color.black)
                         Spacer()
                         
+                        //Save coordinate location
                         Button(action: {
                             favLocation.toggle()
                         }){
                             Image(systemName: favLocation ? "star.fill" :
                                     "star")
                             .foregroundColor(Color.black)
-                
                         }
                     }
+                    
                 }
-                .frame(height:80)
-                .padding([.top, .leading, .trailing],7)
+                .frame(width: 375, height:80)
+                .padding([.top, .leading,.trailing],10)
         
     }
 }

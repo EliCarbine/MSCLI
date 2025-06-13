@@ -31,9 +31,10 @@ struct MainNav: View {
             
         }
         .offset(y:-8)
-        .frame(height:.infinity)
+        //.frame(height:.infinity)
         .ignoresSafeArea(.container)
         }
+        .offset(y:20)
       
     }
 }

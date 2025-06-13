@@ -8,14 +8,18 @@
 import SwiftUI
 
 struct Title: View {
-  //  @State public var bottomSheet:Bool = true
-  //  @Binding var bottomNav:Bool
+  //@State public var bottomSheet:Bool = true
+  
+    @Binding var bottomNav:Bool
+    @Binding var sideNav:Bool
     
     var body: some View {
+        
         VStack(alignment: .center){
-            HStack(alignment: .center, spacing: 1){
+            HStack(alignment: .center, spacing: -10){
+                //Profile pic prompt menu
                 Button(action: {
-                 //   bottomNav.toggle()
+                   bottomNav.toggle()
                 }){
                     Image(systemName:"person.crop.circle.fill")
                         .resizable()
@@ -26,6 +30,7 @@ struct Title: View {
                 //  .foregroundColor(Color("CColor"))
                 .shadow(radius: 8)
                 // .offset(x:-40)
+                
                 Spacer(minLength: 30)
                 Text(" MusiCali ")
                     .font(Font.custom("RollingBold-PersonalUse", size: 40))
@@ -38,7 +43,8 @@ struct Title: View {
                 
                  Button(action: {
                  //Settings Side navbar
-                 
+                     sideNav.toggle()
+                     
                  }){ Image(systemName: "line.3.horizontal.decrease")
                  .resizable()
                  .foregroundColor(.black)
@@ -49,6 +55,7 @@ struct Title: View {
                  }
                  }
             .padding([.top, .leading, .trailing],42)
+            .frame(width:400)
             Spacer()
             }
         
@@ -58,6 +65,7 @@ struct Title: View {
 struct Title_Previews: PreviewProvider {
   
     static var previews: some View {
-       Title()
+        Title(bottomNav: .constant(true),
+              sideNav: .constant(true))
    }
 }
